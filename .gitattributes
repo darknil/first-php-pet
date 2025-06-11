@@ -1,0 +1,3 @@
+# Для всех shell-скриптов и Dockerfile сохранять LF
+*.sh text eol=lf
+Dockerfile text eol=lf
