@@ -1,9 +1,9 @@
 # Laravel 12.18.0 Dockerization
 
 
-## Ho to run
+## How to run
 
-Run:
+Run command:
 ```
 docker-compose up -d
 docker-compose exec app composer install --no-interaction --prefer-dist --optimize-autoloader
