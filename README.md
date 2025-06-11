@@ -7,6 +7,7 @@ Run command:
 ```
 docker-compose up -d
 docker-compose exec app composer install --no-interaction --prefer-dist --optimize-autoloader
+docker-compose exec app php artisan key:generate
 ```
 This will start your Docker containers in detached mode (`up -d`) and then install all PHP dependencies inside the `app` container using Composer. 
 
